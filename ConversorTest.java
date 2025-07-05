@@ -5,7 +5,7 @@ public class ConversorTest {
     @Test
     public void testFToC() {
         double resultado = Conversor.fToC(32.0);
-        assertEquals(999.0, resultado, 0.001); // valor errado
+        assertEquals(0.0, resultado, 0.001); // 32°F → 0°C
     }
 
     @Test
