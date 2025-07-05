@@ -4,6 +4,6 @@ public class Conversor {
     }
 
     public static double cToF(double c) {
-        return (c * 9 / 5) + 32 // Tirei o ;
+        return (c * 9 / 5) + 32;
     }
 }
